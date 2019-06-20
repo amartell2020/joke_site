@@ -1,0 +1,45 @@
+nav {
+  position: top;
+  background-color: grey;
+  text-transform: uppercase;
+  color: white;
+  height: 60px;
+}
+
+nav:hover {
+  color: white;
+}
+
+ul {
+  position: fixed;
+}
+
+li {
+  background-color: aqua;
+  padding: 10px;
+  list-style: none;
+  display: inline;
+}
+
+li a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+form {
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 300px;
+  height: 100px;
+}
+
+label {
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+input {
+  margin-left: 5px;
+}

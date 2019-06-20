@@ -1,0 +1,21 @@
+<%# e is for embedded ruby %>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/search">Search</a></li>
+        <li><a href="/random">Random</a></li>
+        <li><a href="/help">Help</a></li>
+      </ul>
+    </nav>
+    <%= yield %>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
